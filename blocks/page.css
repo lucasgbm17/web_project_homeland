@@ -1,8 +1,17 @@
 .page {
-  background-color: #2a2c2f;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   box-sizing: border-box;
   color: #fff;
   padding: 0 20px;
+}
+
+body {
+  background-color: #2a2c2f;
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    padding: 0;
+  }
 }
